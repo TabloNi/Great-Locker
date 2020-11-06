@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_purpletheme"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="노크코드 설정"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="원하시는 노크 모션을 순서대로 입력해 주세요.\n중복되는 노크도 가능합니다."
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="2.5dp">
+
+            <LinearLayout
+                android:id="@+id/motion_one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/motion_lock_outline"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </com.dshantanu.androidsquareslib.AndroidSquares>
+
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="2.5dp">
+
+            <LinearLayout
+                android:id="@+id/motion_two"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/motion_lock_outline"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </com.dshantanu.androidsquareslib.AndroidSquares>
+
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="2.5dp">
+
+            <LinearLayout
+                android:id="@+id/motion_three"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/motion_lock_outline"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </com.dshantanu.androidsquareslib.AndroidSquares>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_row1"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="2.5dp">
+
+            <LinearLayout
+                android:id="@+id/motion_four"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/motion_lock_outline"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </com.dshantanu.androidsquareslib.AndroidSquares>
+
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="2.5dp">
+
+            <LinearLayout
+                android:id="@+id/motion_five"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/motion_lock_outline"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </com.dshantanu.androidsquareslib.AndroidSquares>
+
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="2.5dp">
+
+            <LinearLayout
+                android:id="@+id/motion_six"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/motion_lock_outline"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </com.dshantanu.androidsquareslib.AndroidSquares>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+
+        android:paddingRight="20dp">
+
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="2.5dp">
+
+            <LinearLayout
+                android:id="@+id/motion_seven"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/motion_lock_outline"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </com.dshantanu.androidsquareslib.AndroidSquares>
+
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="2.5dp">
+
+            <LinearLayout
+                android:id="@+id/motion_eight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/motion_lock_outline"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </com.dshantanu.androidsquareslib.AndroidSquares>
+
+        <com.dshantanu.androidsquareslib.AndroidSquares
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="2.5dp">
+
+            <LinearLayout
+                android:id="@+id/motion_nine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/motion_lock_outline"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </com.dshantanu.androidsquareslib.AndroidSquares>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/scarpa_flow"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/make_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="취소"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/make_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:text="다음"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

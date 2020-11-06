@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="club.biblelocker.biblelocker">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver
+            android:name=".BroadcastReceiver.BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".BroadcastReceiver.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="club.biblelocker.ALARM_START" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".Services.RingtoneManageService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Activities.TestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Services.AlarmService"
+            android:exported="false" />
+
+        <activity android:name=".Activities.PatternTest" />
+        <activity android:name=".Activities.AlarmSetActivity" />
+        <activity android:name=".Activities.MotionLockActivity" />
+        <activity android:name=".Activities.MotionLockCheckActivity" />
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.PatternLockActivity" />
+        <activity android:name=".Activities.PatternLockCheckActivity" />
+        <activity android:name=".Activities.PinLockActivity" />
+        <activity android:name=".Activities.PinLockCheckActivity"></activity>
+    </application>
+
+</manifest>

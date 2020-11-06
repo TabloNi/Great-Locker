@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#F9FBF9</color>
+    <color name="london_hue">#BF98BF</color>
+    <color name="scarpa_flow">#594B67</color>
+    <color name="eminence">#694571</color>
+    <color name="red">#FC272D</color>
+
+</resources>
