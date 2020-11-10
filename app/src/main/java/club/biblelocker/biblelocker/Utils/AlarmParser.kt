@@ -9,6 +9,9 @@ class AlarmParser {
             array[i] = days[i].toInt()
         }
         return array
+
+
+        
     }
 
 
