@@ -68,6 +68,8 @@ class DBHelper : SQLiteOpenHelper
                 while(cursor.moveToNext())
                 {
                     alarmModel = AlarmModel(cursor.getInt(0),cursor.getLong(1), cursor.getString(2), cursor.getString(3), cursor.getInt(4), cursor.getInt(5), cursor.getString(6))
+
+                    
                     alarmList.add(alarmModel)
                 }
             }
